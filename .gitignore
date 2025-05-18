@@ -1,0 +1,48 @@
+# Virtual environment
+venv/
+env/
+*.pyc
+__pycache__/
+
+# Generated files
+generated_images/
+image_generator.db
+*.log
+
+# Secrets and sensitive data
+secrets.toml
+*.env
+*.secret
+HUGGING_FACE_API_TOKEN
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE and editor files
+.idea/
+*.sublime-workspace
+*.sublime-project
+.vscode/
+*.swp
+
+# Python build artifacts
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Streamlit cache
+.streamlit/
+
+# Windows-specific
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS-specific
+*.DS_Store
+
+# Temporary files
+*.tmp
+*.temp
